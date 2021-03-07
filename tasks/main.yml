@@ -25,6 +25,7 @@
 - name: Upload app image from DockerHub
   docker_image:
     name: alexanderefimov/exam_images:calc_app
+    force_tag: yes
 
 - name: Create Docker network
   docker_network:
