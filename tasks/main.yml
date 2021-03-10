@@ -22,7 +22,7 @@
           6435376135653239360a323166396263306230346561386636346534386333386439643338363739
           3633
 
-- name: Upload app image from DockerHub
+- name: Download image from DockerHub
   docker_image:
     name: alexanderefimov/exam_images:calc_app
     force: yes
