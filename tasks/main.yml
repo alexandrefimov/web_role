@@ -26,7 +26,6 @@
   docker_image:
     name: alexanderefimov/exam_images:calc_app
     force: yes
-    source: pull
 
 - name: Create Docker network
   docker_network:
